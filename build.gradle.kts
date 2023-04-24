@@ -1,13 +1,15 @@
 plugins {
     kotlin("jvm") version "1.8.0"
+    `maven-publish`
 }
 
-group = "de.komoot.ruleset.ktlint.android"
-version = "1.0"
+group = "com.github.monday8am"
+version = "v0.0.2"
 val kotlinVersion = "0.49.0"
 
 repositories {
     mavenCentral()
+    gradlePluginPortal()
 }
 
 dependencies {
